@@ -1,0 +1,105 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD2362842B095E4F00C8885B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2362832B095E4F00C8885B /* AppDelegate.swift */; };
+		AD2362862B095E4F00C8885B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD2362852B095E4F00C8885B /* Info.plist */; };
+		AD2362882B095E4F00C8885B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2362872B095E4F00C8885B /* main.swift */; };
+		AD23628A2B095E4F00C8885B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD2362892B095E4F00C8885B /* Assets.xcassets */; };
+		AD23628C2B095E4F00C8885B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD23628B2B095E4F00C8885B /* LaunchScreen.storyboard */; };
+		AD2362902B095E4F00C8885B /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD23628F2B095E4F00C8885B /* Flutter.framework */; };
+		AD2362912B095E4F00C8885B /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD23628F2B095E4F00C8885B /* Flutter.framework */; };
+		AD2362922B095E4F00C8885B /* GeneratedPluginRegistrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2362922B095E4F00C8885B /* GeneratedPluginRegistrant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD2362932B095E4F00C8885B /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = AD2362942B095E4F00C8885B /* Project object */; proxyType = 1; remoteGlobalIDString = AD2362952B095E4F00C8885B; remoteInfo = Flutter;
+};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD2362832B095E4F00C8885B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD2362852B095E4F00C8885B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = "text.plist.xml"; path = Info.plist; sourceTree = "<group>"; };
+		AD2362872B095E4F00C8885B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = main.swift; sourceTree = "<group>"; };
+		AD2362892B095E4F00C8885B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = "folder.assetcatalog"; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD23628B2B095E4F00C8885B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = "file.storyboard"; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD23628F2B095E4F00C8885B /* Flutter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Flutter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2362922B095E4F00C8885B /* GeneratedPluginRegistrant.swift */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = GeneratedPluginRegistrant.swift; sourceTree = "<group>"; };
+
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD23627A2B095E4F00C8885B /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+			AD2362902B095E4F00C8885B /* Flutter.framework in Frameworks */,
+			AD2362912B095E4F00C8885B /* App.framework in Frameworks */,
+		);
+	runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD23627E2B095E4F00C8885B /* Runner */ = {isa = PBXGroup; children = (
+			AD2362832B095E4F00C8885B /* AppDelegate.swift */,
+			AD2362852B095E4F00C8885B /* Info.plist */,
+			AD2362872B095E4F00C8885B /* main.swift */,
+			AD2362892B095E4F00C8885B /* Assets.xcassets */,
+			AD23628B2B095E4F00C8885B /* LaunchScreen.storyboard */,
+			AD2362922B095E4F00C8885B /* GeneratedPluginRegistrant.swift */,
+			AD23628F2B095E4F00C8885B /* Flutter.framework */,
+		);
+		path = Runner;
+		sourceTree = "<group>";
+	};
+		AD23627D2B095E4F00C8885B /* Products */ = {isa = PBXGroup; children = (
+			AD23627C2B095E4F00C8885B /* Runner.app */,
+		);
+		name = Products;
+		sourceTree = "<group>";
+	};
+		AD2362772B095E4F00C8885B /* CustomTemplate */ = {isa = PBXGroup; children = (
+			AD23627E2B095E4F00C8885B /* Runner */,
+			AD23627D2B095E4F00C8885B /* Products */,
+		);
+		name = CustomTemplate;
+		sourceTree = "<group>";
+	};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD23627B2B095E4F00C8885B /* Runner */ = {isa = PBXNativeTarget; buildConfigurationList = AD2362982B095E4F00C8885B /* Build configuration list for PBXNativeTarget "Runner" */; buildPhases = (
+			AD2362782B095E4F00C8885B /* Sources */,
+			AD23627A2B095E4F00C8885B /* Frameworks */,
+			AD2362792B095E4F00C8885B /* Resources */,
+			AD2362962B095E4F00C8885B /* Thin Binary */,
+		);
+		buildRules = (
+		);
+		dependencies = (
+		);
+		name = Runner;
+		productName = Runner;
+		productReference = AD23627C2B095E4F00C8885B /* Runner.app */;
+		productType = "com.apple.product-type.application";
+	};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD2362942B095E4F00C8885B /* Project object */ = {isa = PBXProject; attributes = {
+			LastUpgradeCheck = 1430;
+			ORGANIZATIONNAME = "com.example";
+			TargetAttributes = {
+				AD23627B2B095E4F00C8885B = {
+					CreatedOnToolsVersion = 14.3;
+					ProvisioningStyle = Automatic;
+				};
+			};
+		};
+		buildConfigurationList = AD2362972B095E4F00C8885B /* Build configuration list for PBXProject "Runner" */;
+		compatibilityVersion = "Xcode 13.0";
+		developmentRegion = en;
+		has</string> <string>system</string> </array> </dict> </plist>

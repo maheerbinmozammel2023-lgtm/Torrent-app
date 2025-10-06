@@ -1,0 +1,20 @@
+name: torrent_app
+description: A torrent app that can create torrent app that can build torrent file in (v1,v2,hybrid) version with end to end encryption, torrent download, cloud features (cloud fetch , cloud upload),share torrents
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
